@@ -12,6 +12,8 @@ $bindsym $mod+q kill
 ## Launch // Open launcher ##
 $bindsym $mod+space exec $menu
 
+$bindsym $mod+Tab exec $window_switcher
+
 ## Launch // Open clipboard ##
 $bindsym $mod+p exec $clipboard
 
