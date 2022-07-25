@@ -11,7 +11,7 @@
     "height": 20,
 
     "modules-left": ["sway/workspaces", "custom/scratchpad"],
-    "modules-center": ["custom/wf-recorder", "sway/mode"],
+    "modules-center": ["clock", "custom/wf-recorder", "sway/mode"],
     "modules-right": [
         // informational
         "custom/clipboard",
@@ -28,9 +28,7 @@
         "backlight",
 
         // system
-        "custom/sunset",
-
-        "clock"
+        "custom/sunset"
     ],
 
     // -------------------------------------------------------------------------

@@ -13,7 +13,7 @@ include $userConfigDir/definitions
 include $userConfigDir/definitions.d/*.conf
 
 include /etc/sway/inputs/*
-include /etc/sway/outputs/*
+include $userConfigDir/outputs/*
 
 # enable modes
 include $userConfigDir/modes/*
