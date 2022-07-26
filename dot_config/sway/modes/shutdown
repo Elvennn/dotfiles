@@ -36,3 +36,5 @@ mode --pango_markup $mode_shutdown {
 
 ## Launch // Exit Menu ##
 $bindsym $mod+Shift+e mode $mode_shutdown
+
+$bindsym $mod+l exec $locking
