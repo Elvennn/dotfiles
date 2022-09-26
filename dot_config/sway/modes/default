@@ -102,7 +102,7 @@ $bindsym $mod+Shift+underscore move container to workspace $ws8, exec $focus_ws 
 $bindsym $mod+Shift+ccedilla move container to workspace $ws9, exec $focus_ws $ws9
 $bindsym $mod+Shift+agrave move container to workspace $ws10, exec $focus_ws $ws10
 
-$bindsym $mod+m move workspace to output left
+$bindsym $mod+m exec swaymsg -t get_outputs | jq 'map(select(.active)) | .[(map(.focused) | index(true) + 1) % length].name' | xargs swaymsg move workspace to
 
 ## Launch // Open launcher in a new workspace ##
 $bindsym $mod+Shift+space exec /usr/share/sway/scripts/first-empty-workspace.py --switch, exec $menu
@@ -154,3 +154,6 @@ hide_edge_borders smart
 
 gaps inner 5
 gaps outer -10
+
+## Code
+$bindsym $mod+c exec code

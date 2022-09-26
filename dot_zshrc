@@ -12,10 +12,32 @@ plugins=(
     kubectl
     aws
     gcloud
+    terraform
 )
+
+export HISTFILE=~/.zsh_history
 
 source $ZSH/oh-my-zsh.sh
 
 alias gradle='./gradlew'
 alias grho='grhh origin/$(git symbolic-ref --short HEAD)'
 alias wglog="watch --color -n 1 git log --oneline --decorate --color --graph"
+alias vi=nvim
+alias vim=nvim
+alias tfw='terraform workspace'
+alias tfwl='terraform workspace list'
+alias tfws='terraform workspace select'
+alias tfwsh='terraform workspace show'
+
+export TF_CLI_ARGS_apply="-parallelism=50"
+export TF_CLI_ARGS_plan="-parallelism=50"
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/adrien/google-cloud-sdk/path.zsh.inc' ]; then . '/home/adrien/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/adrien/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/adrien/google-cloud-sdk/completion.zsh.inc'; fi

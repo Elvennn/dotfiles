@@ -13,6 +13,7 @@
     "modules-left": ["sway/workspaces", "custom/scratchpad"],
     "modules-center": ["clock", "custom/wf-recorder", "sway/mode"],
     "modules-right": [
+        "tray",
         // informational
         "custom/clipboard",
         "battery",
