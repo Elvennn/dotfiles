@@ -1,0 +1,84 @@
+{
+  "editor.fontFamily": "'Fira Code'",
+  "terminal.integrated.fontFamily": "'RobotoMono Nerd Font', monospace",
+  "window.menuBarVisibility": "toggle",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.fontSize": 15,
+  "redhat.telemetry.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "go.testEnvFile": "${workspaceFolder}/.env",
+  "go.toolsManagement.autoUpdate": true,
+  "git.autofetch": true,
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.note-new-transformation": false,
+  "debug.allowBreakpointsEverywhere": true,
+  "explorer.confirmDelete": false,
+  "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "terminal.integrated.enablePersistentSessions": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[xml]": {
+    "editor.autoClosingBrackets": "never",
+    "files.trimFinalNewlines": true,
+    "editor.formatOnSave": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 4
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "extensions.ignoreRecommendations": true,
+  "[rust]": {},
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 4
+  },
+  "json.schemas": [
+    {
+      "fileMatch": ["appsscript.json"],
+      "url": "http://json.schemastore.org/appsscript"
+    },
+    {
+      "fileMatch": [".clasp.json"],
+      "url": "http://json.schemastore.org/clasp"
+    }
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "yaml": true
+  },
+  "githubIssues.issueCompletions.enabled": false,
+  "githubIssues.userCompletions.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[typesceript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "editor.formatOnSave": true,
+  "terminal.integrated.tabFocusMode": false,
+  "githubPullRequests.pullBranch": "never",
+  "git.openRepositoryInParentFolders": "never",
+  "editor.fontLigatures": true
+}

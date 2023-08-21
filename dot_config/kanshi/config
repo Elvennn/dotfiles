@@ -6,9 +6,14 @@
 # * set the scaling for your screen: output HDMI1 scale 2
 
 profile home {
-	output eDP-1 disable
-	output HDMI-A-1 mode 2560x1440 position 2560,0
-	output DP-2 mode 2560x1440 position 0,0
+	output "AU Optronics 0xFC92 Unknown" disable
+	output "AOC AG241QG Unknown" mode 2560x1440 position 2560,0
+	output "Acer Technologies G247HYU T1QEE0058500" mode 2560x1440 position 0,0
+}
+
+profile home2 {
+	output "AOC AG241QG Unknown" mode 2560x1440 position 2560,0
+	output "Acer Technologies G247HYU T1QEE0058500" mode 2560x1440 position 0,0
 }
 
 profile laptop {
