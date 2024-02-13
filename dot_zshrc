@@ -50,3 +50,6 @@ if [ -f '/home/adrien/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/adri
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+export FLYCTL_INSTALL="/home/adrien/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
