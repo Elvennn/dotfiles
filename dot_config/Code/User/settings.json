@@ -1,6 +1,5 @@
 {
   "terminal.integrated.fontFamily": "'RobotoMono Nerd Font', monospace",
-  "window.menuBarVisibility": "toggle",
   "security.workspace.trust.untrustedFiles": "open",
   "editor.fontSize": 15,
   "redhat.telemetry.enabled": false,
@@ -57,7 +56,7 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "github.copilot.enable": {
     "*": true,
-    "plaintext": false,
+    "plaintext": true,
     "markdown": true,
     "scminput": false,
     "yaml": true
@@ -85,7 +84,7 @@
   "workbench.editor.enablePreview": false,
   "editor.fontFamily": "'Fira Code'",
   "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.css-language-features"
   },
   "editor.tabSize": 2,
   "gitlens.autolinks": [
@@ -100,6 +99,17 @@
     }
   ],
   "workbench.startupEditor": "none",
-  "accessibility.voice.keywordActivation": "inlineChat",
-  "inlineChat.mode": "live"
+  "inlineChat.mode": "live",
+  "workbench.colorTheme": "Default Dark Modern",
+  "explorer.confirmPasteNative": false,
+  "github.copilot.editor.enableCodeActions": false,
+  "update.showReleaseNotes": false,
+  "extensions.autoCheckUpdates": false,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "workbench.activityBar.location": "top",
+  "window.menuBarVisibility": "hidden",
+  "gitlens.launchpad.indicator.enabled": false
 }

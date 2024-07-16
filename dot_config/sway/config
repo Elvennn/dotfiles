@@ -1,8 +1,5 @@
 set $userConfigDir $HOME/.config/sway
 
-# styles - set the folder for your theme definition file
-set $theme $userConfigDir/themes/matcha-green
-
 # theme variables
 include $theme/definitions
 
