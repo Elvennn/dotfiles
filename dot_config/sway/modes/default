@@ -10,7 +10,8 @@ $bindsym $mod+Shift+Return exec $term_float
 $bindsym $mod+q kill
 
 ## Launch // Open launcher ##
-$bindsym $mod+space exec $menu
+# $bindsym $mod+space exec $menu      
+$bindsym $mod+space exec ulauncher-toggle      
 
 $bindsym $mod+Tab exec $window_switcher
 
@@ -105,7 +106,7 @@ $bindsym $mod+Shift+0 move container to workspace $ws10, exec $focus_ws $ws10
 $bindsym $mod+m exec swaymsg -t get_outputs | jq 'map(select(.active)) | .[(map(.focused) | index(true) + 1) % length].name' | xargs swaymsg move workspace to
 
 ## Launch // Open launcher in a new workspace ##
-$bindsym $mod+Shift+space exec /usr/share/sway/scripts/first-empty-workspace.py --switch, exec $menu
+# $bindsym $mod+Shift+space      exec /usr/share/sway/scripts/first-empty-workspace.py --switch, exec $menu
 
 ## Navigation // Switch to a new workspace ##
 $bindsym $mod+n exec /usr/share/sway/scripts/first-empty-workspace.py --switch
@@ -156,4 +157,4 @@ gaps inner 5
 gaps outer -10
 
 ## Code
-$bindsym $mod+c exec code
+$bindsym $mod+c exec cursor

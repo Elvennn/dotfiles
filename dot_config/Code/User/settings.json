@@ -100,7 +100,6 @@
   ],
   "workbench.startupEditor": "none",
   "inlineChat.mode": "live",
-  "workbench.colorTheme": "Default Dark Modern",
   "explorer.confirmPasteNative": false,
   "github.copilot.editor.enableCodeActions": false,
   "update.showReleaseNotes": false,
@@ -108,8 +107,9 @@
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "github.copilot.editor.enableAutoCompletions": true,
   "diffEditor.ignoreTrimWhitespace": false,
-  "diffEditor.hideUnchangedRegions.enabled": true,
   "workbench.activityBar.location": "top",
-  "window.menuBarVisibility": "hidden",
-  "gitlens.launchpad.indicator.enabled": false
+  "window.menuBarVisibility": "toggle",
+  "gitlens.launchpad.indicator.enabled": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "tailwind-fold.autoFold": false
 }
